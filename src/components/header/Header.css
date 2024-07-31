@@ -1,5 +1,27 @@
 header
 {
     width: 100%;
-    background-color: red;
+    padding-top: 78px;
+}
+header nav
+{
+    width: 90%;
+    margin: auto;
+}
+header nav button
+{
+    background-color: transparent;
+    width: 136px;
+    height: 40px;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+    color: var(--pink-clr);
+    border: 1px solid var(--pink-clr);
+    border-radius: 50px;
+    box-shadow: 0 0 9px 0 hsla(322, 100%, 66%, 0.30);
+}
+header nav button:hover
+{
+    border-color: var(--light-pink-clr);
+    color: var(--light-pink-clr);
 }

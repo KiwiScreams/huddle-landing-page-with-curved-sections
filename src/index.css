@@ -5,6 +5,9 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  border: none;
+  outline: none;
+  transition: 0.3s;
 }
 .flex
 {
@@ -14,9 +17,19 @@
 }
 :root
 {
+  /* COLOR */
   --pink-clr: #FF52C1;
+  --light-pink-clr: #FF8ED7;
   --white-clr: #fff;
   --black-clr: #000;
   --dark-blue-clr: #00252E;
   --gray-clr: #808E9A;
+  /* FONT WEIGHT */
+  --font-weight-400: 400;
+  /* FONT SIZE */
+  --font-size-16: 16px;
+}
+button, a
+{
+  cursor: pointer;
 }
