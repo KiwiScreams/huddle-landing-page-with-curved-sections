@@ -1,0 +1,24 @@
+.content-section
+{
+    width: 100%;
+}
+.content-section .container
+{
+    width: 90%;
+    margin: auto;
+    gap: 120px;
+}
+.content-section .container .text-container h3
+{
+    margin-bottom: 26px;
+    color: var(--dark-blue-clr);
+    font-size: var(--font-size-40);
+    font-weight: var(--font-weight-700);
+}
+.content-section .container .text-container p
+{
+    font-size: var(--font-size-16);
+    line-height: 24px;
+    color: var(--dark-blue-clr);
+    width: 80%;
+}

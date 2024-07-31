@@ -1,17 +1,17 @@
-import "./Content.css"
-function Content(props, title, text, image) {
+import "../content/Content.css"
+function Left(props, image, title, text) {
     return (
         <>
             <section className="content-section">
                 <div className="container flex">
+                    <img src={props.image} alt="" />
                     <div className="text-container">
                         <h3>{props.title}</h3>
                         <p>{props.text}</p>
                     </div>
-                    <img src={props.image} alt="" />
                 </div>
             </section>
         </>
     )
 }
-export default Content
+export default Left
