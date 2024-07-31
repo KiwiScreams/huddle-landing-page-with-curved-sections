@@ -22,25 +22,6 @@
     width: 40%;
     margin: auto;
 }
-.main-section button
-{
-    background-color: var(--pink-clr);
-    width: 400px;
-    height: 80px;
-    color: var(--white-clr);
-    font-weight: var(--font-weight-700);
-    font-size: var(--font-size-20);
-    box-shadow: 0 6px 13px 0 #00252e1a;
-    border-radius: 50px;
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 120px;
-}
-.main-section button:hover
-{
-    background-color: var(--light-pink-clr);
-}
 .main-section .diagram
 {
     display: flex;
