@@ -26,6 +26,7 @@ footer input
     width: 320px;
     height: 48px;
     border-radius: 10px;
+    padding-left: 16px;
 }
 footer h2
 {
@@ -38,6 +39,8 @@ footer .div
 {
     width: fit-content;
     gap: 40px;
+    position: relative;
+    /* padding-bottom: 20px; */
 }
 footer button
 {
@@ -52,4 +55,9 @@ footer button
 footer button:hover
 {
     background-color: var(--light-pink-clr);
+}
+footer .div .p
+{
+    position: absolute;
+    bottom: -50px;
 }
