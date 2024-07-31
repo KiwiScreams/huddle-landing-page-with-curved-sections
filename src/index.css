@@ -61,21 +61,18 @@ button, a
 .animate-text
 {
   opacity: 0;
-  transform: translateX(-100%);
-  transition: all 0.5s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 .animate-text.show
 {
   opacity: 1;
-  transform: translateX(0);
-  animation: fly-in 0.5s ease-in-out;
 }
-@keyframes fly-in
+.animate-text-slide
 {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+  transform: translateX(-100%);
+  transition: transform 1s ease-in-out;
+}
+.animate-text-slide.show
+{
+  transform: translateX(0);
 }
