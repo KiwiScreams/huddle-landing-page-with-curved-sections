@@ -25,3 +25,33 @@ header nav button:hover
     border-color: var(--light-pink-clr);
     color: var(--light-pink-clr);
 }
+@media screen and (max-width: 500px)
+{
+    header
+{
+    width: 100%;
+    padding-top: 24px;
+}
+header nav
+{
+    width: 90%;
+    margin: auto;
+}
+}
+@media screen and (max-width: 450px)
+{
+    header
+{
+    width: 100%;
+    padding-top: 24px;
+}
+header nav
+{
+    width: 90%;
+    margin: auto;
+}
+header nav img
+{
+width: 150px;
+}
+}

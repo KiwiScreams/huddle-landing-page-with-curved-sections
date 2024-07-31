@@ -3,7 +3,7 @@ footer
     padding: 280px 120px 100px 120px;
     background: url(../../assets/images/footer.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 footer .content .logo
 {
