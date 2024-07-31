@@ -5,6 +5,7 @@ import image_2 from "../assets/images/image2.svg"
 import image_3 from "../assets/images/image3.svg"
 import bg from "../assets/images/path.svg"
 import Left from "../components/home-components/left-content/Left"
+import Community from "../components/home-components/button/Community"
 
 
 function Home() {
@@ -27,6 +28,7 @@ function Home() {
                     backgroundPosition: "center"
                 }}>
             </Content>
+            <Community />
         </>
     )
 }
