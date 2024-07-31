@@ -26,8 +26,13 @@
   --gray-clr: #808E9A;
   /* FONT WEIGHT */
   --font-weight-400: 400;
+  --font-weight-700: 700;
   /* FONT SIZE */
   --font-size-16: 16px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-48: 48px;
+  --font-size-96: 96px;
 }
 button, a
 {
