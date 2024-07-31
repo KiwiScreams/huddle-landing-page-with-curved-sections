@@ -1,20 +1,19 @@
-.main-section
-{
+.main-section {
     width: 90%;
     margin: auto;
     margin-bottom: 140px;
     text-align: center;
     margin-top: 226px;
 }
-.main-section h2
-{
+
+.main-section h2 {
     font-size: var(--font-size-48);
     font-weight: var(--font-weight-700);
     color: var(--dark-blue-clr);
     margin-bottom: 26px;
 }
-.main-section p
-{
+
+.main-section p {
     font-size: var(--font-size-20);
     font-weight: var(--font-weight-400);
     color: var(--dark-blue-clr);
@@ -22,60 +21,63 @@
     width: 40%;
     margin: auto;
 }
-.main-section .diagram
-{
+
+.main-section .diagram {
     display: flex;
     width: 50%;
     margin: auto;
     gap: 120px;
     margin-top: 120px;
 }
-.main-section .diagram h1
-{
+
+.main-section .diagram h1 {
     font-size: var(--font-size-96);
     font-weight: var(--font-weight-700);
     color: var(--dark-blue-clr);
     margin-bottom: 10px;
 }
-.main-section .diagram span
-{
+
+.main-section .diagram span {
     color: var(--gray-clr);
     font-size: var(--font-size-24);
     text-align: center;
 }
-.main-section .diagram .diagram-box
-{
+
+.main-section .diagram .diagram-box {
     width: fit-content;
     margin: auto;
 }
-.main-section .diagram .diagram-box img
-{
+
+.main-section .diagram .diagram-box img {
     float: left;
     margin-bottom: 10px;
 }
-@media screen and (max-width: 500px)
-{
-    .main-section h2
-{
-    font-size: var(--font-size-24);
-    margin-bottom: 24px;
-}
-.main-section p
-{
-    font-size: var(--font-size-14);
-    margin-bottom: 26px;
-    width: 90%;
-    margin: auto;
-}
-.main-section .diagram
-{
-    width: 90%;
-    flex-direction: column;
-    gap: 80px;
-    margin-top: 120px;
-}
-.main-section .image
-{
-    width: 100%;
-}
+
+@media screen and (max-width: 500px) {
+    .main-section h2 {
+        font-size: var(--font-size-24);
+        margin-bottom: 24px;
+    }
+
+    .main-section {
+        margin-top: 100px;
+    }
+
+    .main-section p {
+        font-size: var(--font-size-14);
+        margin-bottom: 26px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .main-section .diagram {
+        width: 90%;
+        flex-direction: column;
+        gap: 80px;
+        margin-top: 120px;
+    }
+
+    .main-section .image {
+        width: 100%;
+    }
 }
