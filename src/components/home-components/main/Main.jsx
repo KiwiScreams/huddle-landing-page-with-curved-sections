@@ -11,7 +11,7 @@ function Main() {
                 <h2>Build The Community Your Fans Will Love</h2>
                 <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
                 <Button />
-                <img src={mainImage} alt="" />
+                <img src={mainImage} alt="" className="image"/>
                 <div className="diagram">
                     <div className="diagram-box">
                         <img src={icon1} alt="" />

@@ -52,5 +52,30 @@
 {
     float: left;
     margin-bottom: 10px;
-    
+}
+@media screen and (max-width: 500px)
+{
+    .main-section h2
+{
+    font-size: var(--font-size-24);
+    margin-bottom: 24px;
+}
+.main-section p
+{
+    font-size: var(--font-size-14);
+    margin-bottom: 26px;
+    width: 90%;
+    margin: auto;
+}
+.main-section .diagram
+{
+    width: 90%;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 120px;
+}
+.main-section .image
+{
+    width: 100%;
+}
 }

@@ -1,15 +1,14 @@
-header
-{
+header {
     width: 100%;
     padding-top: 78px;
 }
-header nav
-{
+
+header nav {
     width: 80%;
     margin: auto;
 }
-header nav button
-{
+
+header nav button {
     background-color: transparent;
     width: 136px;
     height: 40px;
@@ -20,38 +19,36 @@ header nav button
     border-radius: 50px;
     box-shadow: 0 0 9px 0 hsla(322, 100%, 66%, 0.30);
 }
-header nav button:hover
-{
+
+header nav button:hover {
     border-color: var(--light-pink-clr);
     color: var(--light-pink-clr);
 }
-@media screen and (max-width: 500px)
-{
-    header
-{
-    width: 100%;
-    padding-top: 24px;
+
+@media screen and (max-width: 500px) {
+    header {
+        width: 100%;
+        padding-top: 24px;
+    }
+
+    header nav {
+        width: 90%;
+        margin: auto;
+    }
 }
-header nav
-{
-    width: 90%;
-    margin: auto;
-}
-}
-@media screen and (max-width: 450px)
-{
-    header
-{
-    width: 100%;
-    padding-top: 24px;
-}
-header nav
-{
-    width: 90%;
-    margin: auto;
-}
-header nav img
-{
-width: 150px;
-}
+
+@media screen and (max-width: 450px) {
+    header {
+        width: 100%;
+        padding-top: 24px;
+    }
+
+    header nav {
+        width: 90%;
+        margin: auto;
+    }
+
+    header nav img {
+        width: 150px;
+    }
 }
