@@ -40,7 +40,6 @@ footer .div
     width: fit-content;
     gap: 40px;
     position: relative;
-    /* padding-bottom: 20px; */
 }
 footer button
 {
@@ -60,4 +59,8 @@ footer .div .p
 {
     position: absolute;
     bottom: -50px;
+}
+footer .error-input
+{
+    border: 1px solid #FF4343;
 }

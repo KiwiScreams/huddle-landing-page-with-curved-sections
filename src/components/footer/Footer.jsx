@@ -56,6 +56,7 @@ function Footer() {
                             id="email"
                             value={email}
                             onChange={handleEmailChange}
+                            className={isValid ? "" : "error-input"}
                         />
                         <button onClick={handleSubscribe}>Subscribe</button>
                         {!isValid && <p className="p" style={{ color: "red" }}>{message}</p>}
