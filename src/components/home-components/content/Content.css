@@ -25,8 +25,8 @@
 @media screen and (max-width:500px) {
     .content-section .container {
         flex-direction: column-reverse;
-        /* margin: auto; */
         text-align: center;
+        margin-bottom: 160px;
     }
     .content-section .container img
     {
@@ -34,5 +34,12 @@
     }
     .content-section .container-2 {
         flex-direction: column;
+    }
+    .content-section .container .text-container p {
+        width: 80%;
+        margin: auto;
+    }
+    .content-section .container {
+        gap: 40px;
     }
 }
