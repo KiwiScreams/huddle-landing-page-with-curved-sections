@@ -68,7 +68,7 @@ footer .social-icons img:hover {
     transform: scale(1.5);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     footer {
         margin-top: 250px;
         overflow: hidden;
