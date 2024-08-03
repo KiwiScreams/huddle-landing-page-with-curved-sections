@@ -44,9 +44,9 @@ function Footer() {
             <p>example@huddle.com</p>
           </div>
           <div className="social-icons">
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-square-twitter"></i>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
           </div>
         </div>
         <div className="content">
