@@ -1,5 +1,4 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,22 +7,21 @@
   border: none;
   outline: none;
   transition: 0.3s;
+  font-family: "popins";
 }
-.flex
-{
+.flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-:root
-{
+:root {
   /* COLOR */
-  --pink-clr: #FF52C1;
-  --light-pink-clr: #FF8ED7;
+  --pink-clr: #ff52c1;
+  --light-pink-clr: #ff8ed7;
   --white-clr: #fff;
   --black-clr: #000;
-  --dark-blue-clr: #00252E;
-  --gray-clr: #808E9A;
+  --dark-blue-clr: #00252e;
+  --gray-clr: #808e9a;
   /* FONT WEIGHT */
   --font-weight-400: 400;
   --font-weight-700: 700;
@@ -35,44 +33,40 @@
   --font-size-48: 48px;
   --font-size-96: 96px;
 }
-button, a
-{
+@font-face {
+  font-family: "popins";
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+button,
+a {
   cursor: pointer;
 }
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
   width: 12px;
   height: 12px;
 }
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
   background-color: var(--pink-clr);
   border-radius: 10px;
 }
-::-webkit-scrollbar-track
-{
+::-webkit-scrollbar-track {
   background-color: #fff;
 }
 ::-webkit-scrollbar-thumb:hover,
-::-webkit-scrollbar-thumb:active
-{
+::-webkit-scrollbar-thumb:active {
   background-color: var(--light-pink-clr);
 }
-.animate-text
-{
+.animate-text {
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
-.animate-text.show
-{
+.animate-text.show {
   opacity: 1;
 }
-.animate-text-slide
-{
+.animate-text-slide {
   transform: translateX(-100%);
   transition: transform 1s ease-in-out;
 }
-.animate-text-slide.show
-{
+.animate-text-slide.show {
   transform: translateX(0);
 }
