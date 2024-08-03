@@ -5,7 +5,11 @@ footer {
   background-size: cover;
   align-items: center;
 }
-
+footer .content-container
+{
+    width: fit-content;
+    margin: auto;
+}
 footer .content .logo {
   margin-bottom: 20px;
 }
@@ -68,15 +72,15 @@ footer i {
   font-size: 40px;
   color: var(--white-clr);
 }
-footer i:nth-child(1):hover
+footer a:nth-child(1) i:hover
 {
     color: #4267B2;
 }
-footer i:nth-child(2):hover
+footer a:nth-child(2) i:hover
 {
     color: #E1306C;
 }
-footer i:nth-child(3):hover
+footer a:nth-child(3) i:hover
 {
     color: #1DA1F2;
 }

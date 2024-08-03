@@ -32,44 +32,53 @@ function Footer() {
   };
   return (
     <>
-      <footer className="flex">
-        <div className="content">
-          <img src={logo} alt="" className="logo" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
-          </p>
-          <div className="info">
-            <p>Phone: +1-543-123-4567</p>
-            <p>example@huddle.com</p>
+      <footer>
+        <div className="content-container flex">
+          <div className="content">
+            <img src={logo} alt="" className="logo" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </p>
+            <div className="info">
+              <p>Phone: +1-543-123-4567</p>
+              <p>example@huddle.com</p>
+            </div>
+            <div className="social-icons">
+              <a href="#">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-square-twitter"></i>
+              </a>
+            </div>
           </div>
-          <div className="social-icons">
-            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-          </div>
-        </div>
-        <div className="content">
-          <h2>NEWSLETTER</h2>
-          <p>
-            To recieve tips on how to grow your community, sign up to our weekly
-            newsletter. We'll never send you spam or pass on your email address
-          </p>
-          <div className="flex div">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              value={email}
-              onChange={handleEmailChange}
-              className={isValid ? "" : "error-input"}
-            />
-            <button onClick={handleSubscribe}>Subscribe</button>
-            {!isValid && (
-              <p className="p" style={{ color: "red" }}>
-                {message}
-              </p>
-            )}
+          <div className="content">
+            <h2>NEWSLETTER</h2>
+            <p>
+              To recieve tips on how to grow your community, sign up to our
+              weekly newsletter. We'll never send you spam or pass on your email
+              address
+            </p>
+            <div className="flex div">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value={email}
+                onChange={handleEmailChange}
+                className={isValid ? "" : "error-input"}
+              />
+              <button onClick={handleSubscribe}>Subscribe</button>
+              {!isValid && (
+                <p className="p" style={{ color: "red" }}>
+                  {message}
+                </p>
+              )}
+            </div>
           </div>
         </div>
       </footer>
